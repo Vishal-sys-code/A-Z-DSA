@@ -12,7 +12,7 @@ stack<object_type> variable_name;
 stack<int> s;
 stack<string> s;
 ```
-## **Functions in queue:**
+## **Functions in stack:**
 
 * **```push() :```** to insert an element in the stack.
 ```cpp
