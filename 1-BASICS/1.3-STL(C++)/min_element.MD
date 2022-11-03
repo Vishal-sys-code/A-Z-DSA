@@ -1,24 +1,24 @@
-# ***max_element()**
+# ***min_element()**
 
 **Example 1:**
 ```
 Input: arr = {3,1,9,5,2}
-Output: 9
+Output: 1
 ```
-**Explanation:** 9 is the maximum element.
+**Explanation:** 1 is the minimum element.
 
 **Example 2:**
 ```
 Input: arr = {10,40,22,5,2}
-Output: 40
+Output: 2
 ```
-**Explanation:** 40 is the maximum element.
+**Explanation:** 2 is the minimum element.
 
-*The maximum element can be found using the STL function ```*max_element()```.*
+*The minimum element can be found using the STL function ```*min_element()```.*
 
 **Syntax:**
 ```cpp
-*max_element(first index,last index);
+*min_element(first index,last index);
 ```
 
 **Code:**
@@ -36,7 +36,7 @@ int main(){
     }
     cout<<endl;
     
-    cout<<"The maximum element is: "<<*max_element(v.begin(),v.end());
+    cout<<"The maximum element is: "<<*min_element(v.begin(),v.end());
 }
 ```
 
@@ -44,5 +44,5 @@ int main(){
 
 ```txt
 The elements in the vector are: 4 2 5 9 1
-The maximum element is: 9
+The minimum element is: 9
 ```
